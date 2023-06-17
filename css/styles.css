@@ -64,8 +64,6 @@ body{
     list-style-type: none;
 }
 .section-cards{
-    position: absolute;
-    align-items: center;
 }
 .section-cards ul{
     list-style-type: none;
