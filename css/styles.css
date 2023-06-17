@@ -24,33 +24,36 @@ body{
     color:var(--secondary-color);
     font-weight: 500;
     line-height: 24px;
-    text-decoration: none;
     letter-spacing: 0.02em; 
+}
+.link{
+    text-decoration: none;
 }
 .link:hover{
     cursor: pointer;
 }
 .navbar ul {
-    list-style-type:none;
+    list-style:none;
 }
 .header .navbar .logo{
     font-family:'Raleway', sans-serif;
     font-weight: 800;
     color:#4D5AE5;
-    text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
     font-size: 18px;
     line-height: 21px;
+    line-height: 1.17;
 }
 .logo:hover{
     cursor: pointer;
 }
 .logo span{
-   color: #2E2F42;
+   color: #ffffff;
 }
 .address ul{
     font-style: normal
-    list-style-type: none;
+    list-style: none;
 }
 .address  li a {
  color:var(--primary-color);
