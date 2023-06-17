@@ -6,6 +6,7 @@
  --button-bgcolor:#F4F4FD;
  --button-bordercolor:#E7E9FC;
  --button-textcolor:#4D5AE5;
+ 
 }
 body{
     margin: 0;
@@ -24,9 +25,7 @@ body{
     font-weight: 500;
     line-height: 24px;
     text-decoration: none;
-    letter-spacing: 0.02em;
-    
-   
+    letter-spacing: 0.02em; 
 }
 .link:hover{
     cursor: pointer;
@@ -50,6 +49,7 @@ body{
    color: #2E2F42;
 }
 .address ul{
+    font-style: normal
     list-style-type: none;
 }
 .address  li a {
@@ -63,7 +63,16 @@ body{
 .main .section-buttons ul{
     list-style-type: none;
 }
-.section-cards{
+.section-buttons{
+    background-color: var(--secondary-color); 
+}
+.section-buttons h2{
+    font-family:'Roboto', sans-serif;
+    color: color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.02em
+    font-size: 56px;
+    line-height: 1.07;
 }
 .section-cards ul{
     list-style-type: none;
