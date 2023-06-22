@@ -73,17 +73,6 @@ body{
 .address-link:focus{
     color: #404bbf;
 }
-.section-buttons{
-    background-color: var(--secondary-color); 
-}
-.section-buttons h2{
-    font-family:'Roboto', sans-serif;
-    color: #ffffff;
-    text-align: center;
-    letter-spacing: 0.02em;
-    font-size: 56px;
-    line-height: 1.07;
-}
 .button{
     background-color: var(--textcolor);
     font-family: "Roboto", sans-serif;
