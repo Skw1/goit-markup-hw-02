@@ -104,7 +104,7 @@ body{
 .title{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     color:var(--secondary-color);
     letter-spacing: 0.02em;
 }
@@ -113,6 +113,14 @@ body{
     font-size: 16px;
     letter-spacing: 0.02em;
     color:var(--primary-color);
+}
+.second-section-title{
+    color:var(--secondary-color);
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .third-section{
     background-color: #F4F4FD;
@@ -129,6 +137,16 @@ body{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+}
+.third-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color:var(--secondary-color);
+    letter-spacing: 0.02em;
+}
+.point{
+    background-color: #FFFFFF;
 }
 .footer{
     background-color:var(--secondary-color);
