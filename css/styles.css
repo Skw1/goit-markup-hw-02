@@ -136,15 +136,7 @@ body{
     color:#F4F4FD;
     
 }
-.logo-footer{
-    font-family:var(--secondary-font);
-    font-weight: 800;
-    color:#4D5AE5;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 18px;
-    line-height: 21px;
-}
+
 .span-logo-footer{
     color:#ffffff;
 }
