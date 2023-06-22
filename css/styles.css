@@ -16,7 +16,6 @@ body{
     background-color: #ffffff;
 }
 .link{
-    font-family:var(--secondary-color);
     color:var(--secondary-color);
     font-weight: 500;
     line-height: 24px;
