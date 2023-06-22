@@ -29,7 +29,7 @@ body{
 .link{
     text-decoration: none;
 }
-.nav-link:hover, .first-link:focus{
+.nav-link:hover, .nav-link:focus{
     color:#404bbf
 }
 .link:hover{
