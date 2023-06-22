@@ -68,14 +68,7 @@ body{
 .address-link:focus{
     color: #404bbf;
 }
-.section-buttons{
-    background-color: var(--secondary-color);
-    color:#ffffff;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
+
 .button{
     color: var(--textcolor);
     background-color: var(--button-bgcolor);
@@ -89,13 +82,6 @@ body{
 .button:hover, .button:focus{
     background-color: #404BBF;
     color:#ffffff;
-}
-.section-img{
-    color:var(--secondary-color);
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
 }
 .title{
     font-weight: 500;
