@@ -36,7 +36,6 @@ body{
 }
 .list {
     list-style:none;
-    justify-content: space-between;
 }
  .logo{
     font-family:'Raleway', sans-serif;
@@ -99,6 +98,7 @@ body{
 }
 .footer{
     background-color:var(--secondary-color);
+    
 }
 .footer p{
     font-family: var(--primary-font);
@@ -106,5 +106,5 @@ body{
     color:#F4F4FD;   
 }
 .span-logo-footer{
-    color:#ffffff;
+    color:#f4f4fd;
 }
