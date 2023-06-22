@@ -73,9 +73,6 @@ body{
 .address-link:focus{
     color: #404bbf;
 }
-.main .section-buttons ul{
-    list-style-type: none;
-}
 .section-buttons{
     background-color: var(--secondary-color); 
 }
