@@ -52,9 +52,11 @@ body{
    color: #ffffff;
 }
 .address ul{
-    font-style: normal
+    font-style: normal;
     list-style: none;
+    justify-content: space-between;
 }
+
 .address  li a {
  color:var(--primary-color);
  text-decoration: none;
@@ -71,9 +73,9 @@ body{
 }
 .section-buttons h2{
     font-family:'Roboto', sans-serif;
-    color: color: #ffffff;
+    color: #ffffff;
     text-align: center;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
     font-size: 56px;
     line-height: 1.07;
 }
