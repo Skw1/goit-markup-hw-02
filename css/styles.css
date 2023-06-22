@@ -95,48 +95,16 @@ body{
     cursor: pointer;
 }
 .button:hover, .button:focus{
-    background-color: #404BBF;
+     color: #FFFFFF;
 }
-.section-cards{
-    background-color: var(--secondary-color); 
-}
-.section-cards ul{
-    list-style-type: none;
-}
-.section-cards ul li{
-    width: 360px;
-    background-color: #ffffff;
-    border: 1px solid #E7E9FC;
-}
-.section-cards ul li h3{
-    font-family: var(--primary-font);
-    font-weight: 500;
-}
-.section-cards ul li p{
-    font-family:var(--primary-font);
-    font-weight: 400;
-}
-.button{
-    background-color: var(--button-bgcolor);
-    border:1px solid var(--button-bordercolor);
-    color:var(--button-textcolor);
-}
-.button:hover{
-    cursor: pointer;
-    color:#ffffff;
-    background-color: #404BBF;
-}
-
 .footer{
     background-color:var(--secondary-color);
 }
 .footer p{
     font-family: var(--primary-font);
     font-weight: 400;  
-    color:#F4F4FD;
-    
+    color:#F4F4FD;   
 }
-
 .span-logo-footer{
     color:#ffffff;
 }
