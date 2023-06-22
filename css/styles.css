@@ -67,7 +67,7 @@ body{
 .title-section{
     background-color:var(--secondary-color);
 }
-.h1-title{
+.h-title{
     color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
@@ -104,10 +104,12 @@ body{
 .title{
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
     color:var(--secondary-color);
     letter-spacing: 0.02em;
 }
 .paragraph{
+    line-height: 1.2;
     font-size: 16px;
     letter-spacing: 0.02em;
     color:var(--primary-color);
