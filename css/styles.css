@@ -5,7 +5,7 @@
  --secondary-color:#2E2F42;
  --button-bgcolor:#F4F4FD;
  --button-bordercolor:#E7E9FC;
- --button-textcolor:#4D5AE5;
+ --textcolor:#4D5AE5;
  
 }
 body{
@@ -32,13 +32,14 @@ body{
 .link:hover{
     cursor: pointer;
 }
-.navbar ul {
+.list {
     list-style:none;
+    justify-content: space-between;
 }
-.header .navbar .logo{
+ .logo{
     font-family:'Raleway', sans-serif;
     font-weight: 800;
-    color:#4D5AE5;
+    color:var(--textcolor);
     text-transform: uppercase;
     letter-spacing: 0.03em;
     font-size: 18px;
@@ -48,22 +49,26 @@ body{
 .logo:hover{
     cursor: pointer;
 }
-.logo span{
-   color: #ffffff;
+.span-logo{
+   color:var(--secondary-color);
 }
-.address ul{
+.address{
     font-style: normal;
-    list-style: none;
-    justify-content: space-between;
 }
+.address-link{
+    color:var(--primary-color);
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
 
-.address  li a {
- color:var(--primary-color);
- text-decoration: none;
- 
 }
-.address  li a:hover{
+.address-link:hover{
+    color: #404bbf;
     cursor: pointer;
+}
+.address-link:focus{
+    color: #404bbf;
 }
 .main .section-buttons ul{
     list-style-type: none;
@@ -78,6 +83,22 @@ body{
     letter-spacing: 0.02em;
     font-size: 56px;
     line-height: 1.07;
+}
+.button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button:hover, .button:focus{
+    background-color: #404BBF;
+}
+.section-cards{
+    background-color: var(--secondary-color); 
 }
 .section-cards ul{
     list-style-type: none;
@@ -124,6 +145,3 @@ body{
     font-size: 18px;
     line-height: 21px;
 }
-.logo-footer span{
-    color: #ffffff;
- }
