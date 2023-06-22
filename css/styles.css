@@ -85,6 +85,7 @@ body{
 }
 .button:hover, .button:focus{
     background-color: #404BBF;
+    color:#ffffff;
 }
 .footer{
     background-color:var(--secondary-color);
