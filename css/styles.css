@@ -20,8 +20,6 @@ body{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em; 
-}
-.link{
     text-decoration: none;
 }
 .nav-link:hover, .nav-link:focus{
