@@ -41,7 +41,7 @@ body{
 .address{
     font-style: normal;
 }
-.address > .address-link{
+.address-link{
     color:var(--primary-color);
     font-weight: 400;
     text-decoration: none;
