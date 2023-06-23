@@ -11,15 +11,14 @@ body{
     background-color: #FFFFFF;
     color:#434455;
 }
-.header{
-    background-color: #ffffff;
-}
 .link{
     color:var(--secondary-color);
-    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em; 
     text-decoration: none;
+}
+.nav-link:focus{
+    font-weight: 500;
 }
 .nav-link:hover, .nav-link:focus{
     color:#404bbf
@@ -40,9 +39,6 @@ body{
     line-height: 21px;
     line-height: 1.17;
 }
-.logo:hover{
-    cursor: pointer;
-}
 .span-logo{
    color:var(--secondary-color);
 }
@@ -55,14 +51,10 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
+}
+.address-link:hover, .address-link:focus{
+    color: #404bbf;
 
-}
-.address-link:hover{
-    color: #404bbf;
-    cursor: pointer;
-}
-.address-link:focus{
-    color: #404bbf;
 }
 .title-section{
     background-color:var(--secondary-color);
