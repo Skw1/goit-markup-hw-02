@@ -13,13 +13,12 @@ body{
 }
 .link{
     color:var(--secondary-color);
+    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em; 
     text-decoration: none;
 }
-.navbar > .nav-link{
-    font-weight: 500;
-}
+
 .nav-link:hover, .nav-link:focus{
     color:#404bbf
 }
@@ -42,8 +41,9 @@ body{
 .address{
     font-style: normal;
 }
-.address-link{
+.address > .address-link{
     color:var(--primary-color);
+    font-weight: 400;
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
