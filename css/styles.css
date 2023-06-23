@@ -23,9 +23,6 @@ body{
 .nav-link:hover, .nav-link:focus{
     color:#404bbf
 }
-.link:hover{
-    cursor: pointer;
-}
 .list {
     list-style:none;
 }
